@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="762.0" prefWidth="1020.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nextfire.Fire2contr">
+   <children>
+      <ImageView fitHeight="783.0" fitWidth="1020.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pixelskitch2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="fire1" fitHeight="178.0" fitWidth="205.0" layoutX="59.0" layoutY="141.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../fire/pixelsfire1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="fire2" fitHeight="187.0" fitWidth="208.0" layoutX="41.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../fire/pixelsfire2.png" />
+         </image>
+      </ImageView>
+      <DialogPane contentText="&#10;Вогонь не вщуахає, а посилюється, тому залишатись в кімнаті небезпечно.&#10; " headerText="Пожежників викликано." layoutX="354.0" layoutY="124.0" style="-fx-border-color: black;" />
+      <Accordion layoutX="790.0" layoutY="411.0" />
+      <Button fx:id="how" layoutX="367.0" layoutY="148.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="238.0" style="-fx-background-color: #c4c4c4; -fx-border-color: black;" text="Як правильно викликати екстрені служби?">
+         <font>
+            <Font size="11.0" />
+         </font>
+      </Button>
+      <Button fx:id="exit" layoutX="577.0" layoutY="303.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="151.0" style="-fx-background-color: black;" text="Вийти з кімнати" textFill="WHITE">
+         <font>
+            <Font name="Arial Bold" size="14.0" />
+         </font>
+      </Button>
+      <DialogPane fx:id="inf" contentText="- Своє ім`я&#10;- Точну адресу події&#10;- Що конкретно трапилося&#10;- Якщо є, то стан та кількість постраждалих&#10;Відповідай на всі поставлені питання та не клади слухавку, поки не повідомлять,&#10;що всі дані отримано.&#10;" headerText="Що потрібно повідомити?" layoutX="163.0" layoutY="284.0" style="-fx-border-color: blue;" />
+      <ProgressBar layoutX="59.0" layoutY="41.0" prefWidth="200.0" progress="0.6" />
+      <Text layoutX="135.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="прогрес:" />
+   </children>
+</AnchorPane>

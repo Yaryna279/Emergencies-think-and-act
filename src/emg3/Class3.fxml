@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.embed.swing.SwingNode?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="772.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="emg3.class3contr">
+   <children>
+      <ImageView fitHeight="793.0" fitWidth="1029.0" layoutX="-29.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pixelspidyizd.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="labellift" layoutX="167.0" layoutY="161.0" text="Ліфт" textFill="WHITE">
+         <font>
+            <Font name="Arial Black" size="20.0" />
+         </font>
+      </Label>
+      <DialogPane fx:id="info" contentText="Зібравшись, ти виходиш у під`їзд. Обери наступний спосіб пересування:" layoutX="441.0" layoutY="129.0" prefHeight="108.0" prefWidth="370.0" />
+      <Button fx:id="ok" layoutX="762.0" layoutY="201.0" mnemonicParsing="false" style="-fx-border-color: black; -fx-background-color: #c4c4c4;" text="ок" />
+      <Button fx:id="lift" layoutX="322.0" layoutY="354.0" mnemonicParsing="false" style="-fx-background-color: black;" text="Спуститися ліфтом" textFill="WHITE" />
+      <Button fx:id="shodu" layoutX="729.0" layoutY="422.0" mnemonicParsing="false" style="-fx-background-color: black;" text="Спуститися сходами" textFill="WHITE" />
+      <Button fx:id="stop" layoutX="600.0" layoutY="260.0" mnemonicParsing="false" style="-fx-background-color: black;" text="Зупинитися" textFill="WHITE" />
+      <DialogPane fx:id="liftinfo" contentText="Ліфт - небезпечний вибір. Він залежить від енергопостачання і може раптово зупинитися. " layoutX="200.0" layoutY="399.0" style="-fx-border-color: red;" />
+      <DialogPane fx:id="stopinfo" contentText="Зволікати під час тривоги не можна!&#10;" layoutX="460.0" layoutY="300.0" style="-fx-border-color: red;" />
+      <DialogPane fx:id="truevar" contentText="Сходи - найнадійніший шлях евакуації. Вони не залежать від електрики  та дозволяють рухатися навіть у разі пошкодження будівлі." layoutX="612.0" layoutY="457.0" style="-fx-border-color: green;" />
+      <Button fx:id="next" layoutX="769.0" layoutY="572.0" mnemonicParsing="false" text="Далі" textFill="#3900f2">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <ProgressBar layoutX="96.0" layoutY="41.0" prefWidth="200.0" progress="0.75" />
+      <Text fill="WHITE" layoutX="170.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="прогрес:" />
+      <SwingNode layoutX="170.0" layoutY="175.0" />
+   </children>
+</AnchorPane>
