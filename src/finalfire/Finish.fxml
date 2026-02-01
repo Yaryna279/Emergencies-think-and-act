@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: grey;" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finalfire.Finishcontr">
+   <children>
+      <DialogPane contentText="Ти вийшов з квартири, тобі вдалося врятуватися.&#10;Тепер потрібно повідомити людей навколо, щоб ніхто не постраждав&#10;та чекати пожежників.&#10;" layoutX="119.0" layoutY="93.0" style="-fx-border-color: black;" />
+      <Button fx:id="menu" layoutX="274.0" layoutY="274.0" mnemonicParsing="false" style="-fx-border-color: black; -fx-background-color: c4c4c4;" text="Меню" />
+      <ProgressBar layoutX="19.0" layoutY="41.0" prefWidth="200.0" progress="1.0" />
+      <Text layoutX="95.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="прогрес:" />
+   </children>
+</AnchorPane>

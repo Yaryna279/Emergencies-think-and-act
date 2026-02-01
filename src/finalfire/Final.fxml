@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.DialogPane?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Cylinder?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="769.0" prefWidth="1020.0" xmlns="http://javafx.com/javafx/25" xmlns:fx="http://javafx.com/fxml/1" fx:controller="finalfire.Finalcontr">
+   <children>
+      <ImageView fitHeight="772.0" fitWidth="1020.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pixelskoridor.png" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="DARKEN" fitHeight="319.0" fitWidth="598.0" layoutX="153.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pixelsdum2.png" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="DARKEN" cache="true" fitHeight="340.0" fitWidth="598.0" layoutX="288.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pixelsdum2.png" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="ADD" fitHeight="239.0" fitWidth="250.0" layoutX="169.0" layoutY="-25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pixels33.png" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="ADD" fitHeight="299.0" fitWidth="331.0" layoutX="153.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pixels33.png" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="ADD" fitHeight="239.0" fitWidth="250.0" layoutX="565.0" layoutY="-11.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pixels33.png" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="ADD" fitHeight="285.0" fitWidth="265.0" layoutX="551.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pixels33.png" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="ADD" fitHeight="239.0" fitWidth="250.0" layoutX="720.0" layoutY="-25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pixels33.png" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="ADD" fitHeight="239.0" fitWidth="250.0" layoutX="655.0" layoutY="-58.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pixels33.png" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="DARKEN" fitHeight="239.0" fitWidth="250.0" layoutX="751.0" layoutY="-25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pixels33.png" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="DARKEN" fitHeight="222.0" fitWidth="239.0" layoutX="618.0" layoutY="-81.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pixels33.png" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="DARKEN" fitHeight="200.0" fitWidth="192.0" layoutX="671.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pixels33.png" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="DARKEN" fitHeight="239.0" fitWidth="250.0" layoutX="777.0" layoutY="-15.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pixels33.png" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="DARKEN" fitHeight="239.0" fitWidth="250.0" layoutX="551.0" layoutY="-51.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pixels33.png" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="ADD" fitHeight="239.0" fitWidth="250.0" layoutX="840.0" layoutY="-51.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pixels33.png" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="ADD" fitHeight="192.0" fitWidth="215.0" layoutX="744.0" layoutY="-66.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pixels33.png" />
+         </image>
+      </ImageView>
+      <ImageView blendMode="ADD" fitHeight="239.0" fitWidth="250.0" layoutX="609.0" layoutY="-25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@pixels33.png" />
+         </image>
+      </ImageView>
+      <Cylinder cullFace="FRONT" height="20.0" layoutX="960.0" layoutY="358.0" radius="10.0" />
+      <ProgressBar layoutX="33.0" layoutY="41.0" prefWidth="200.0" progress="0.8" />
+      <Text layoutX="109.0" layoutY="34.0" strokeType="OUTSIDE" strokeWidth="0.0" text="прогрес:" />
+      <ImageView fx:id="person1" fitHeight="424.0" fitWidth="239.0" layoutX="26.0" layoutY="223.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@person1.png" />
+         </image>
+      </ImageView>
+      <DialogPane contentText="Коли знаходишся біля диму, не потрібно йти у повний зріст:&#10;йди пригнувшись - кнопка на клавіатурі &quot;вправо&quot; ; повзи - кнопки &quot;вниз&quot;+&quot;вправо&quot;.&#10;&#10;Також тримайся стіни та прикрий рот і ніс вологою тканиною.&#10;Якщо немає води, все одно прикрий сухою тканиною." layoutX="321.0" layoutY="23.0" prefHeight="213.0" prefWidth="490.0" style="-fx-border-color: black;" />
+   </children>
+</AnchorPane>
